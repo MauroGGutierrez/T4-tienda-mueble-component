@@ -1,5 +1,4 @@
 import "./App.css";
-import "./normalize.css"
 import Layout from "./components/ui/Layout";
 
 function App() {
