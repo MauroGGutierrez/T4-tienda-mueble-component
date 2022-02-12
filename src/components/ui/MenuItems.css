@@ -1,0 +1,29 @@
+.contenedor-navegacion {
+  border-top: 0.1rem solid #e1e1e1;
+  margin-top: -2rem;
+}
+
+.contenedor {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+a {
+  color: black;
+  padding: 0 1.3rem;
+  text-decoration: none;
+}
+
+.navegacion {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .navegacion {
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+}

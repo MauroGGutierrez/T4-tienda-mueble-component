@@ -1,0 +1,44 @@
+.categori-contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 56rem;
+}
+
+@media (min-width: 768px) {
+  .categori-contenedor {
+    margin-top: 70rem;
+    margin-bottom: 0;
+  }
+}
+
+.text-categori {
+  margin-top: 2.5rem;
+  padding: 2rem;
+  font-size: 4rem;
+}
+
+@media (min-width: 768px) {
+  .text-categori {
+    font-size: 4.7rem;
+  }
+}
+
+.section-box {
+  width: 100%;
+  margin-top: -2.5rem;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .section-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
